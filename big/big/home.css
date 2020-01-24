@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 1200px;
+	margin:auto;
+}
+
+header{
+	background:url(9.jpg); 
+	height: 110vh;
+	-webkit-background-size:cover;
+	background-size: cover;
+}
+
+
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 40px;
+}
+.nav-area li{
+	display: inline-block;
+	background-position: center;
+	position: relative;
+}
+
+.nav-area li a{
+	color: #000099;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 26px;
+}
+
+.nav-area li a:hover{
+	background:  #b3d9ff;
+	color: #333;
+}
+.logo img{
+	width: 150px;
+	float: left;
+	height: auto;
+}
+
+.sub-menu
+{
+	display: none;
+}
+.wrapper ul li:hover .sub-menu
+{
+	display: block;
+	position: absolute;
+	background:   #d9d9d9;
+	margin-top: 15px;
+	margin-left: 15px
+
+}
+.wrapper ul li:hover .sub-menu ul
+{
+	display: block;
+	margin: 5px;
+}
+.wrapper ul li:hover .sub-menu ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	border-radius: 0;
+	text-align:left;
+}
+.wrapper ul li:hover .sub-menu ul li:last-child
+{
+	border-bottom: none;
+}
+.wrapper ul li:hover .sub-menu ul li a:hover
+{
+	color:#b2ff00;
+}
+.welcome-text{
+	position: absolute;
+	width: 800px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align:center;
+}
+
+.welcome-text h1{
+	text-align: center;
+	color: #ffff99;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+
+.welcome-text a{
+	border: 1px solid #ffff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.welcome-text a:hover{
+	background: #fff;
+	color: #333;
+}
